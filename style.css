@@ -1,0 +1,96 @@
+body{
+background-image: url('fotografie/Mad1 - kopie.jpg'); 
+background-attachment: fixed; 
+background-size:100%;
+}
+
+body{
+    box-sizing:border-box;
+}
+*, *::before, *::after{
+    box-sizing:border-box;
+}
+body{
+    margin:auto;
+    max-width: 80%;
+    font-family: 'Roboto', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    color:rgb(30, 33, 31);
+    background-color:rgb(164, 175, 175);
+    line-height:1.5;
+    padding:4em 1em;
+}
+h1{
+    margin:0;
+    padding:1em 1.2em;
+    font-size:6em;
+    font-style:italic;
+    color:white;
+    text-shadow: 3px 3px 7px #666666;
+}
+h2{
+    margin-top:2em;
+    padding-top:1em;
+    font-size:3em;
+    font-style:italic;
+    text-shadow: 3px 3px 7px #242323;
+    color:rgb(230, 172, 47);
+    clear:left;
+}
+h3{
+    font-style: italic;
+    color:aliceblue;
+    padding:1.2em
+}
+.povidani{
+    font-size: 1.3em;
+    margin-top:2em;
+}
+.vlevo{
+    float: left;
+    padding: 50px;
+    border-radius:80px;
+}
+header{
+    font-size: 1.5em;
+    margin:2em;
+    display:flex;
+    font-style:italic;
+    justify-content:center;
+    text-shadow: 3px 3px 7px #686565;
+}
+footer{
+    display:flex;
+    justify-content: center;
+    clear:right;
+}
+
+.logo{
+    background: url('fotografie/hlavicka.jpg') center no-repeat, rgb(69, 65, 65);
+    background-size:cover;
+    border-radius:50px;
+
+}
+.kontaktfoto{
+    margin:3em;
+    border-radius:50%;
+    float:right;
+    
+}
+.portret{
+    border-radius:50%;
+    float:right;
+    margin:4em;
+}
+.fotky{
+    display:flex;
+    justify-content:space-around;
+    border-radius:20px;
+    border-color:black;
+    border-width:200px;
+    margin:2em;
+}
+.box{
+    display:flex;
+    flex-wrap:wrap;
+}
+a{color:#484747}
